@@ -1,0 +1,659 @@
+/* Common css Start */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1604px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dm {
+  font-family: "DM Sans", sans-serif;
+}
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-64 {
+  font-size: 64px;
+}
+.font-88 {
+  font-size: 88px;
+}
+.font-96 {
+  font-size: 96px;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Common css End */
+
+/*===============================================
+                Navbar Part Start
+ ==============================================*/
+nav .nav {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0;
+}
+nav .nav .nav_items {
+  padding-left: 544px;
+}
+nav .nav .nav_items ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+nav .nav .nav_items ul li {
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+nav .nav .nav_items ul li:hover {
+  font-weight: 700;
+  color: #262626;
+}
+nav .nav .nav_items ul li:first-child {
+  padding-left: 0;
+}
+nav .nav .nav_items ul li:last-child {
+  padding-right: 0;
+}
+.tools {
+  background: #f5f5f3;
+}
+.tools .search {
+  display: flex;
+  /* column-gap: 30px; */
+  justify-content: space-between;
+}
+.tools .search .item1 {
+  padding: 40px 0;
+  display: flex;
+  width: 10%;
+  box-sizing: border-box;
+}
+.tools .search .item1 img {
+  box-sizing: border-box;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tools .search .item1 h6 {
+  padding-left: 11px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+}
+.tools .search .item2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 33%;
+}
+.tools .search .item2 .icon {
+  position: absolute;
+  top: 21px;
+  right: 15px;
+}
+.tools .search .item2 input {
+  width: 601px;
+  padding: 18px 28px;
+  padding-right: 68px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 18px;
+}
+.tools .search .item2 input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+
+.tools .search .item3 {
+  width: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.tools .search .item3 i:last-child {
+  margin-left: 25px;
+}
+/*===============================================
+                Navbar Part End
+ ==============================================*/
+/*===============================================
+                banner Part start
+ ==============================================*/
+.banner {
+  background: url(../image/banner.png) top no-repeat;
+  background-size: cover;
+  padding: 204px 0 29px 0;
+  height: 400px;
+}
+.banner .content {
+  display: flex;
+  column-gap: 111px;
+}
+.banner .slider {
+  margin-top: 81px;
+  display: flex;
+  column-gap: 10px;
+}
+.banner .slide_main {
+  width: 2px;
+  height: 200px;
+  background: #fff;
+}
+.banner .slider1 {
+  width: 2px;
+  height: 51px;
+  background: #262626;
+}
+
+.offer h2 {
+  margin-bottom: 33px;
+  font-size: 38px;
+}
+.offer p span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.offer p span:nth-child(2) {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+
+.offer a {
+  margin-top: 49px;
+  background: #262626;
+  color: #fff;
+  padding: 14px 58px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+/*===============================================
+                banner Part End
+ ==============================================*/
+/*===============================================
+                Policy Part start
+ ==============================================*/
+.policy {
+  margin-bottom: 140px;
+}
+.policy .flex {
+  column-gap: 536px;
+}
+.policy .flex .item {
+  display: flex;
+}
+.policy .item span:first-child {
+  margin-right: 17px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+.policy .flex .item {
+  margin: 21px 0;
+  column-gap: 17px;
+}
+.policy .item p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #6d6d6d;
+}
+/*===============================================
+                Policy Part End
+ ==============================================*/
+/*===============================================
+                sale Part start
+ ==============================================*/
+.sale {
+  margin-bottom: 118px;
+}
+.sale .flex {
+  column-gap: 40px;
+}
+.sale .flex .left {
+  background: url(../image/sale1.png) top no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.sale .flex .right {
+  width: 50%;
+}
+.sale .flex .right .part1 {
+  background: url(../image/sale2.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.sale .flex .right .part2 {
+  background: url(../image/sale3.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.sale .left .offer {
+  padding: 468px 391px 64px 93px;
+}
+.sale .right .part1 .offer {
+  padding: 66px 421px 66px 50px;
+}
+.sale .right .part2 .offer {
+  padding: 66px 421px 66px 50px;
+}
+
+.sale .offer h2 {
+  margin-bottom: 33px;
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+}
+.sale .offer p span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.sale .offer p span:nth-child(2) {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sale .offer a {
+  margin-top: 49px;
+  background: #262626;
+  color: #fff;
+  padding: 14px 58px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+/*===============================================
+                sale Part End
+ ==============================================*/
+/*===============================================
+                New Arrivals Part End
+ ==============================================*/
+.new .container .wishlist {
+  bottom: 81px;
+  right: 0;
+  position: absolute;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  display: none;
+  transition: 0.4s;
+}
+.new .container .wishlist .list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.new .container .wishlist .list:hover p {
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.new .container .wishlist .list:nth-child(2) {
+  margin: 21px 0;
+}
+.new .container .wishlist .list p {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+.new .product:hover .wishlist {
+  bottom: 81px;
+  right: 0;
+  position: absolute;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  display: block;
+}
+.new {
+  margin-bottom: 118px;
+}
+.new .container {
+  position: relative;
+}
+.new .container .arrow_left_right {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 248px;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+.new .container .arrow_left_right .left_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background: #979797;
+}
+.new .container .arrow_left_right .right_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background: #979797;
+}
+.new .container .arrow_left_right i {
+  transform: scale(1.3);
+  color: #fff;
+}
+.new .container h2 {
+  margin-bottom: 48px;
+  font-size: 39px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+.new .flex {
+  column-gap: 40px;
+}
+.new .product {
+  width: 24%;
+  position: relative;
+}
+.new .product h5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 9px 31px;
+  background: #000;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+}
+.new .product span:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+  margin-right: 113px;
+}
+.new .product span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+.new .product p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+  margin-top: 15px;
+}
+
+/*===============================================
+                New Arrivals Part End
+ ==============================================*/
+/*===============================================
+                bestsellers Part End
+ ==============================================*/
+.bestsellers {
+  margin-bottom: 130px;
+}
+/* .bestsellers .container {
+  position: relative;
+}
+.bestsellers .container .arrow_left_right {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 248px;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+.bestsellers .container .arrow_left_right .left_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background: #979797;
+}
+.bestsellers .container .arrow_left_right .right_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background: #979797;
+}
+.bestsellers .container .arrow_left_right i {
+  transform: scale(1.3);
+  color: #fff;
+} */
+.bestsellers .container h2 {
+  margin-bottom: 48px;
+  font-size: 39px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+.bestsellers .flex {
+  column-gap: 40px;
+}
+.bestsellers .product {
+  width: 24%;
+  position: relative;
+}
+.bestsellers .product h5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 9px 31px;
+  background: #000;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+}
+.bestsellers .product span:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+  margin-right: 113px;
+}
+.bestsellers .product span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+.bestsellers .product p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+  margin-top: 15px;
+}
+
+/*===============================================
+                bestsellers Part End
+ ==============================================*/
+/*===============================================
+                year Part start
+ ==============================================*/
+.year {
+  background: url(../image/background2.png) center no-repeat;
+  background-size: cover;
+  margin-bottom: 128px;
+}
+
+.year .offer {
+  width: 30%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 637px;
+}
+.year .offer h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/*===============================================
+                year Part End
+ ==============================================*/
+/*===============================================
+                footer Part start
+ ==============================================*/
+footer {
+  background: #f5f5f3;
+}
+footer .flex {
+  margin-bottom: 65px;
+}
+footer .left_footer {
+  width: 75%;
+}
+footer .left_footer_up {
+  width: 80%;
+  display: flex;
+  column-gap: 142px;
+}
+footer .left_footer_up .item {
+  margin-top: 55px;
+}
+footer .left_footer_up .item h4 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+  margin-bottom: 14px;
+}
+footer .left_footer_up .item ul li {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #6d6d6d;
+  margin: 5px 0;
+}
+footer .left_footer_up .item p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+}
+footer .left_footer_up .item p:last-child {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #6d6d6d;
+  margin-top: 18px;
+}
+footer .left_footer_up .item p:first-child {
+  margin-bottom: 5px;
+}
+footer .left_footer_down {
+  display: flex;
+  column-gap: 26px;
+}
+footer .right_footer {
+  width: 20%;
+}
+footer .right_footer img {
+  width: 25%;
+  margin-top: 59px;
+}
+footer .down_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+ul li:hover {
+  cursor: pointer;
+}
+/*===============================================
+                footer Part End
+ ==============================================*/

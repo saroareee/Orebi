@@ -1,0 +1,258 @@
+@media (min-width: 320px) and (max-width: 921px) {
+  .flex {
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .flex .navitem ul {
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+  }
+
+  .logo {
+    width: 30%;
+  }
+  /* .navitem {
+    padding-top: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+  } */
+  .flex label {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: block;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .flex input:checked ~ .navitem ul {
+    display: block;
+  }
+  /* .flex input:checked ~ .button {
+    display: block;
+  } */
+
+  /* .button {
+    width: 70%;
+    text-align: left;
+    display: none;
+  }
+  .button a {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+  } */
+  .banner {
+    padding: 46px 0 50px 0;
+  }
+  .banner h3 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .banner h1 {
+    width: 100%;
+    margin-top: 45px;
+  }
+  .banner h1 span {
+    width: 100%;
+    font-size: 38px;
+    line-height: 0;
+    margin-top: 25px;
+  }
+
+  .second .flex {
+    width: 100%;
+    padding: 45px 0;
+    column-gap: 140px;
+  }
+  .second .left {
+    width: 100%;
+    border: none;
+  }
+  .second .right {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .second .right h4 {
+    color: #ffffff;
+    margin-top: 50px;
+    font-weight: 400;
+  }
+  .second .right h2 {
+    margin-top: 20px;
+    color: #ffffff;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 37px;
+  }
+  .second .right p {
+    margin-top: 20px;
+    margin-bottom: 33px;
+    font-size: 16px;
+  }
+  .second .right a {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  #banner .container {
+    padding-bottom: 20px;
+  }
+  .banner-content {
+    background: none;
+  }
+
+  .banner-content h2 {
+    color: #fbd784;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 100px; */
+    padding-top: 20px;
+  }
+  .banner-content p {
+    margin-top: 26px;
+    text-transform: capitalize;
+    padding: 0;
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .banner-content h6 {
+    margin-top: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    padding: 0;
+    font-weight: 400;
+  }
+  .banner-btn {
+    margin-top: 20px;
+  }
+  .banner-btn a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .culture .flex {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .culture .left {
+    width: 100%;
+    text-align: center;
+  }
+  .culture .left h4 {
+    margin-bottom: 19px;
+    color: #fbd784;
+    margin-top: 0;
+  }
+
+  .culture .left h2 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .culture .left p {
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 0;
+  }
+  .culture .left a {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .culture .right {
+    width: 100%;
+    margin-top: 35px;
+  }
+  #last {
+    padding-bottom: 30px;
+  }
+  #last .part1 {
+    flex-direction: column;
+  }
+  #last .left {
+    width: 100%;
+    text-align: center;
+  }
+  #last .left h3 {
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  #last .right {
+    width: 100%;
+    /* column-gap: 40px; */
+    align-items: center;
+    justify-content: space-around;
+  }
+  #last .right p {
+    font-size: 15px;
+  }
+  #last .button {
+    text-transform: capitalize;
+    padding: 18px 30px;
+    color: #000;
+    background-color: #ffa343;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+  }
+  #last .button a {
+    font-size: 15px;
+  }
+  #last .part2 {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  #last .part2 .vac_first {
+    display: flex;
+    padding-right: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  #last .part2 .vacation {
+    width: 100%;
+  }
+  #last .part2 .vac_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 94px;
+  }
+  #last .part2 .item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 115px;
+    margin-top: 35px;
+  }
+  #last .part2 .sevice {
+    row-gap: 15px;
+  }
+  #last .part2 .about {
+    row-gap: 15px;
+  }
+  #last .part2 .help {
+    row-gap: 15px;
+  }
+  #last .copyright {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

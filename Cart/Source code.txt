@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Discover Indonesia</title>
+  </head>
+  <body>
+    <!-- ======================================
+                   First Section Start
+         ====================================== -->
+
+    <nav>
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <img src="image/nav_logo.png" alt="nav_logo" />
+          </div>
+          <div class="nav_items">
+            <ul>
+              <li>Home</li>
+              <li>Shop</li>
+              <li>About</li>
+              <li>Contacts</li>
+              <li>Journal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ======================================
+                         Nav Bar part End
+               ====================================== -->
+    <section class="tools">
+      <div class="container">
+        <div class="search">
+          <div class="item1">
+            <img src="image/BAR.png" alt="BAR" />
+            <h6>Shop by Category</h6>
+          </div>
+          <div class="item2">
+            <input type="text" placeholder="Search Products" />
+            <div class="icon"><i class="fa fa-search icon"></i></div>
+          </div>
+          <div class="item3">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-caret-down"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================
+                         Banner Bar part Start
+               ====================================== -->
+    <section class="shop">
+      <div class="container">
+        <div class="heading">
+          <h2>Products</h2>
+          <p><span>Home</span> <span>></span> <span>Products</span></p>
+        </div>
+        <div class="content">
+          <div class="shop_left">
+            <div class="left_part">
+              <h4>Shop by Category</h4>
+              <div class="shop_left_part1">
+                <div class="item"><p>Category1</p></div>
+                <div class="item"><p>+</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Category2</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Category3</p></div>
+                <div class="item"><p>+</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Category4</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Category5</p></div>
+              </div>
+            </div>
+            <div class="left_part">
+              <div class="shop_left_part1">
+                <div class="item"><h4>Shop by Color</h4></div>
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+              <div class="shop_left_part2">
+                <div class="icon_color1"></div>
+                <div class="item"><p>Color1</p></div>
+              </div>
+              <div class="shop_left_part2">
+                <div class="icon_color2"></div>
+                <div class="item"><p>Color2</p></div>
+              </div>
+              <div class="shop_left_part2">
+                <div class="icon_color3"></div>
+                <div class="item"><p>Color3</p></div>
+              </div>
+              <div class="shop_left_part2">
+                <div class="icon_color4"></div>
+                <div class="item"><p>Color4</p></div>
+              </div>
+              <div class="shop_left_part2">
+                <div class="icon_color5"></div>
+                <div class="item"><p>Color5</p></div>
+              </div>
+            </div>
+
+            <div class="left_part">
+              <h4>Shop by Brand</h4>
+              <div class="shop_left_part1">
+                <div class="item"><p>Brand1</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Brand2</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Brand3</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Brand4</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>Brand5</p></div>
+              </div>
+            </div>
+            <div class="left_part">
+              <div class="shop_left_part3">
+                <div class="item"><h4>Shop by Price</h4></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>$0.00 - $9.99</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>$10.00 - $19.99</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>$20.00 - $29.99</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>$30.00 - $39.99</p></div>
+              </div>
+              <div class="shop_left_part1">
+                <div class="item"><p>$40.00 - $69.99</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="shop_right">
+            <div class="right_up">
+              <div class="logo_right flex">
+                <div class="logo_img">
+                  <i class="fa-sharp fa-solid fa-table-cells-large"></i>
+                </div>
+                <div class="logo_img"><i class="fa-solid fa-list"></i></div>
+              </div>
+              <div class="sort flex">
+                <p>Sort by:</p>
+                <div class="sort_box">
+                  <i class="fa-solid fa-caret-down"></i>
+                  <select>
+                    <option>Featured</option>
+                    <option>Adventure</option>
+                    <option>Thrilling</option>
+                  </select>
+                </div>
+              </div>
+              <div class="sort flex">
+                <p>Show:</p>
+                <div class="sort_box">
+                  <i class="fa-solid fa-caret-down"></i>
+                  <select>
+                    <option>36</option>
+                    <option>38</option>
+                    <option>40</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="right_down flex">
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <h5>NEW</h5>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="product">
+                <div class="wishlist">
+                  <div class="list flex">
+                    <p>Add to Wish List</p>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Compare</p>
+                    <i class="fa-solid fa-rotate-left"></i>
+                  </div>
+                  <div class="list flex">
+                    <p>Add to Cart</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <img src="image/band.png" alt="band" />
+                <div class="name_price">
+                  <div class="name">
+                    <p>Basic Saroar</p>
+                    <p>$44.00</p>
+                  </div>
+                  <p>Black</p>
+                </div>
+              </div>
+              <div class="next_pages">
+                <div class="page">
+                  <div class="page_num"><p>1</p></div>
+                  <div class="page_num"><p>2</p></div>
+                  <div class="page_num"><p>3</p></div>
+                  <div class="page_num"><p>4</p></div>
+                  <div class="page_num"><p>...</p></div>
+                  <div class="page_num"><p>10</p></div>
+                </div>
+                <div class="product_info">
+                  <p>Products from 1 to 12 of 80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================
+                         Banner Bar part End
+        ====================================== -->
+    <!-- ======================================
+                         policy part start
+        ====================================== -->
+
+    <!-- ======================================
+                         policy part End
+    ====================================== -->
+
+    <!-- ======================================
+                   sale part Start
+         ====================================== -->
+    <!-- <section class="sale">
+      <div class="container">
+        <div class="flex">
+          <div class="left">
+            <div class="offer">
+              <h2>Phones Sale</h2>
+              <p>
+                <span>Up to</span> <span>30%</span>
+                <span>sale for all phones!</span>
+              </p>
+              <a href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="right">
+            <div class="part1">
+              <div class="offer">
+                <h2>Electronics Sale</h2>
+                <p>
+                  <span>Up to</span> <span>70%</span>
+                  <span>sale for all phones!</span>
+                </p>
+                <a href="#">Shop Now</a>
+              </div>
+            </div>
+            <div class="part2">
+              <div class="offer">
+                <h2>Furniture Offer</h2>
+                <p>
+                  <span>Up to</span> <span>50%</span>
+                  <span>sale for all phones!</span>
+                </p>
+                <a href="#">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <i class="fa-regular fa-arrow-rotate-left"></i> -->
+
+    <!-- ======================================
+                  sale part End
+         ====================================== -->
+    <!-- ======================================
+                  New Arrivals part Start
+         ====================================== -->
+    <!-- <section class="new">
+      <div class="container">
+        <div class="arrow_left_right flex">
+          <div class="left_arrow">
+            <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="right_arrow">
+            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <h2>New Arrival</h2>
+        <div class="flex">
+          <div class="product">
+            <div class="wishlist">
+              <div class="list flex">
+                <p>Add to Wish List</p>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="list flex">
+                <p>Compare</p>
+                <i class="fa-solid fa-rotate-left"></i>
+              </div>
+              <div class="list flex">
+                <p>Add to Cart</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <h5>NEW</h5>
+            <img src="image/speaker.png" alt="speaker" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <div class="wishlist">
+              <div class="list flex">
+                <p>Add to Wish List</p>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="list flex">
+                <p>Compare</p>
+                <i class="fa-solid fa-rotate-left"></i>
+              </div>
+              <div class="list flex">
+                <p>Add to Cart</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <h5>NEW</h5>
+            <img src="image/band.png" alt="band" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <div class="wishlist">
+              <div class="list flex">
+                <p>Add to Wish List</p>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="list flex">
+                <p>Compare</p>
+                <i class="fa-solid fa-rotate-left"></i>
+              </div>
+              <div class="list flex">
+                <p>Add to Cart</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <h5>NEW</h5>
+            <img src="image/busket.png" alt="busket" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <div class="wishlist">
+              <div class="list flex">
+                <p>Add to Wish List</p>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="list flex">
+                <p>Compare</p>
+                <i class="fa-solid fa-rotate-left"></i>
+              </div>
+              <div class="list flex">
+                <p>Add to Cart</p>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <h5>NEW</h5>
+            <img src="image/doll.png" alt="doll" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ======================================
+                  New Arrivals  part End
+         ====================================== -->
+    <!-- ======================================
+                  bestsellers part Start
+         ====================================== -->
+    <!-- <section class="bestsellers">
+      <div class="container"> -->
+    <!-- <div class="arrow_left_right flex">
+          <div class="left_arrow">
+            <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="right_arrow">
+            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          </div>
+        </div> -->
+    <!-- <h2>Our Bestsellers</h2>
+        <div class="flex">
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/bottle.png" alt="bottle" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/bag1.png" alt="bag1" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/thressher.png" alt="tabthressherle" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/bag2.png" alt="bag2" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- ======================================
+                 bestsellers part End
+         ====================================== -->
+    <!-- ======================================
+                  year  part Start
+         ====================================== -->
+    <!-- <section class="year">
+      <div class="container">
+        <div class="offer">
+          <h2>Phone of the year</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry orem Ipsum..
+          </p>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+    </section> -->
+    <!-- ======================================
+                  year part End
+         ====================================== -->
+    <!-- ======================================
+                  Special Offers part End
+         ====================================== -->
+    <!-- <section class="bestsellers">
+      <div class="container"> -->
+    <!-- <div class="arrow_left_right flex">
+              <div class="left_arrow">
+                <i class="fa-sharp fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="right_arrow">
+                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+              </div>
+            </div> -->
+    <!-- <h2>Special Offers</h2>
+        <div class="flex">
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/cap.png" alt="cap" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/table.png" alt="table" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/headset.png" alt="headset" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+          <div class="product">
+            <h5>NEW</h5>
+            <img src="image/sunglass.png" alt="sunglass" />
+            <p><span>Basic Crew Neck Tee</span> <span>$44.00</span></p>
+            <p>Black</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ======================================
+                  Special Offers part End
+         ====================================== -->
+    <!-- ======================================
+                  footer part Start
+         ====================================== -->
+    <footer>
+      <div class="container">
+        <div class="flex">
+          <div class="left_footer">
+            <div class="left_footer_up">
+              <div class="item">
+                <h4>MENU</h4>
+                <ul>
+                  <li>Home</li>
+                  <li>Shop</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                  <li>Journal</li>
+                </ul>
+              </div>
+              <div class="item">
+                <h4>SHOP</h4>
+                <ul>
+                  <li>Category1</li>
+                  <li>Category2</li>
+                  <li>Category3</li>
+                  <li>Category4</li>
+                  <li>Category5</li>
+                  <li>Category6</li>
+                </ul>
+              </div>
+              <div class="item">
+                <h4>HELP</h4>
+                <ul>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                  <li>Special E-shop</li>
+                  <li>Airlinefees</li>
+                  <li>Shipping</li>
+                  <li>Secure Payments</li>
+                </ul>
+              </div>
+              <div class="item">
+                <p>(052) 611-5711</p>
+                <p>company@domain.com</p>
+                <p>575 Crescent Ave. Quakertown, PA 18951</p>
+              </div>
+            </div>
+          </div>
+          <div class="right_footer">
+            <img src="image/footer_logo.png" alt="footer_logo" />
+          </div>
+        </div>
+        <div class="down_footer flex">
+          <div class="left_footer_down">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <p>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+        </div>
+      </div>
+    </footer>
+    <!-- ======================================
+                  footer part End
+         ====================================== -->
+  </body>
+</html>
+
+
+---------------------------css-----------------------------------
+
+/* Common css Start */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1604px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dm {
+  font-family: "DM Sans", sans-serif;
+}
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-64 {
+  font-size: 64px;
+}
+.font-88 {
+  font-size: 88px;
+}
+.font-96 {
+  font-size: 96px;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Common css End */
+
+/*===============================================
+                Navbar Part Start
+ ==============================================*/
+nav .nav {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0;
+}
+nav .nav .nav_items {
+  padding-left: 544px;
+}
+nav .nav .nav_items ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+nav .nav .nav_items ul li {
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+nav .nav .nav_items ul li:hover {
+  font-weight: 700;
+  color: #262626;
+}
+nav .nav .nav_items ul li:first-child {
+  padding-left: 0;
+}
+nav .nav .nav_items ul li:last-child {
+  padding-right: 0;
+}
+.tools {
+  background: #f5f5f3;
+}
+.tools .search {
+  display: flex;
+  /* column-gap: 30px; */
+  justify-content: space-between;
+}
+.tools .search .item1 {
+  padding: 40px 0;
+  display: flex;
+  width: 10%;
+  box-sizing: border-box;
+}
+.tools .search .item1 img {
+  box-sizing: border-box;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tools .search .item1 h6 {
+  padding-left: 11px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+}
+.tools .search .item2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 33%;
+}
+.tools .search .item2 .icon {
+  position: absolute;
+  top: 21px;
+  right: 15px;
+}
+.tools .search .item2 input {
+  width: 601px;
+  padding: 18px 28px;
+  padding-right: 68px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 18px;
+}
+.tools .search .item2 input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+
+.tools .search .item3 {
+  width: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.tools .search .item3 i:last-child {
+  margin-left: 25px;
+}
+/*===============================================
+                Navbar Part End
+ ==============================================*/
+/*===============================================
+                banner Part start
+ ==============================================*/
+.shop {
+  margin-top: 50px;
+  margin-bottom: 139px;
+}
+.shop .container .heading {
+  margin-bottom: 135px;
+}
+.shop .container .heading span:nth-child(2) {
+  margin: 0 5px;
+}
+.shop .container .heading h2 {
+  font-size: 39px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 11px;
+}
+.shop .container .heading p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 39px;
+}
+.shop .container .shop_left {
+  width: 23%;
+  /* background: #0be724; */
+}
+.shop .container .left_part:nth-child(2) .shop_left_part1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.shop .container .left_part:nth-child(2) .shop_left_part1 i {
+  margin-top: 6px;
+}
+.shop .container .shop_left .left_part {
+  margin-bottom: 53px;
+}
+.shop .container .shop_left .left_part h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 35px;
+}
+.shop .container .shop_left p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .shop_left .shop_left_part1 {
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 21px;
+  margin-bottom: 20px;
+}
+.shop .container .shop_left .shop_left_part2 {
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  padding-bottom: 21px;
+  margin-bottom: 20px;
+  align-items: center;
+  column-gap: 15px;
+}
+.shop .container .shop_left .shop_left_part2 .icon_color1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000000;
+}
+.shop .container .shop_left .shop_left_part2 .icon_color2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff8686;
+}
+.shop .container .shop_left .shop_left_part2 .icon_color3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #7ed321;
+}
+.shop .container .shop_left .shop_left_part2 .icon_color4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #b6b6b6;
+}
+.shop .container .shop_left .shop_left_part2 .icon_color5 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #15cba5;
+}
+
+.shop .container .left_part:nth-child(3) .shop_left_part3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.shop .container .left_part:nth-child(3) .shop_left_part3 i {
+  margin-top: 6px;
+}
+.shop .container .shop_right {
+  width: 73%;
+}
+.shop .container .shop_right .right_up {
+  display: flex;
+  margin-bottom: 60px;
+}
+.shop .container .shop_right .right_up .logo_right {
+  display: flex;
+  column-gap: 20px;
+}
+
+.shop .container .shop_right .logo_right .logo_img {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+}
+.shop .container .shop_right .logo_right .logo_img:hover {
+  background-color: #000;
+  color: #fff;
+}
+.shop .container .shop_right .sort {
+  margin-left: 547px;
+  display: flex;
+  align-items: center;
+}
+.shop .container .shop_right .sort:last-child {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.shop .container .shop_right .sort p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  margin-right: 14px;
+}
+.shop .container .shop_right .sort .sort_box {
+  border-radius: 0;
+  height: 100%;
+  position: relative;
+  border: 1px solid #f0f0f0;
+}
+.shop .container .shop_right .sort .sort_box select {
+  padding-left: 21px;
+  padding-right: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  align-items: center;
+  height: 100%;
+  appearance: none;
+  border: none;
+}
+.shop .container .shop_right .sort:last-child .sort_box select {
+  padding-right: 66px;
+}
+.shop .container .shop_right .sort .sort_box i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+.shop .container .shop_right .show {
+  margin-left: 40px;
+  background: #e70b63;
+}
+.shop .container .shop_right .right_down {
+  display: flex;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.shop .container .shop_right .right_down .next_pages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.shop .container .shop_right .right_down .next_pages .page {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 15px;
+}
+.shop .container .shop_right .right_down .next_pages .page .page_num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d8d8d8;
+}
+.shop
+  .container
+  .shop_right
+  .right_down
+  .next_pages
+  .page
+  .page_num:nth-child(5) {
+  border: none;
+}
+.shop .container .shop_right .right_down .next_pages .product_info {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .shop_right .right_down .next_pages .page .page_num:hover {
+  background: #000000;
+  color: #fff;
+}
+/*===============================================
+                wishlist Part End
+ ==============================================*/
+.shop .container .wishlist {
+  bottom: 81px;
+  right: 0;
+  position: absolute;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  display: none;
+  transition: 0.4s;
+}
+.shop .container .wishlist .list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.shop .container .wishlist .list:hover p {
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.shop .container .wishlist .list:nth-child(2) {
+  margin: 21px 0;
+}
+.shop .container .wishlist .list p {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+  margin-right: 15px;
+}
+.shop .product:hover .wishlist {
+  bottom: 81px;
+  right: 0;
+  position: absolute;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  display: block;
+}
+.shop .container {
+  position: relative;
+}
+/* .shop .flex {
+  column-gap: 40px;
+} */
+.shop .product {
+  width: 31%;
+  position: relative;
+}
+.shop .product h5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 9px 31px;
+  background: #000;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+}
+
+.shop .product .name_price p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 24px;
+}
+.shop .product .name_price .name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.shop .product .name_price .name p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+}
+.shop .product .name_price .name p:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+
+/*===============================================
+                New Arrivals Part End
+ ==============================================*/
+
+/*===============================================
+                footer Part start
+ ==============================================*/
+footer {
+  background: #f5f5f3;
+}
+
+footer .left_footer {
+  width: 75%;
+}
+footer .left_footer_up {
+  width: 80%;
+  display: flex;
+  column-gap: 142px;
+}
+footer .left_footer_up .item {
+  margin-top: 55px;
+}
+footer .left_footer_up .item h4 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+  margin-bottom: 14px;
+}
+footer .left_footer_up .item ul li {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #6d6d6d;
+  margin: 5px 0;
+}
+footer .left_footer_up .item p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+}
+footer .left_footer_up .item p:last-child {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #6d6d6d;
+  margin-top: 18px;
+}
+footer .left_footer_up .item p:first-child {
+  margin-bottom: 5px;
+}
+footer .left_footer_down {
+  display: flex;
+  column-gap: 26px;
+}
+footer .right_footer {
+  width: 20%;
+}
+footer .right_footer img {
+  width: 25%;
+  margin-top: 59px;
+}
+footer .down_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  margin-top: 65px;
+}
+ul li:hover {
+  cursor: pointer;
+}
+/*===============================================
+                footer Part End
+ ==============================================*/
