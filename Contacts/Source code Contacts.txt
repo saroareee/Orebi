@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <title>Checkout</title>
+    <title>Discover Indonesia</title>
   </head>
   <body>
     <!-- ======================================
@@ -69,155 +69,31 @@
     <section class="product_inside">
       <div class="container">
         <div class="heading">
-          <h2>Checkout</h2>
-          <p><span>Home</span> <span>></span> <span>Checkout</span></p>
+          <h2>Contacts</h2>
+          <p><span>Home</span> <span>></span> <span>Contacts</span></p>
         </div>
         <div class="content">
-          <div class="login_text">
-            <p>Have a coupon? <b>Click here to enter your code</b></p>
+          <div class="add_review">
+            <h4>Fill up a Form</h4>
+            <div class="add_name">
+              <p>Name</p>
+              <input type="text" placeholder="Enter Your Name" />
+            </div>
+            <div class="add_name">
+              <p>Email</p>
+              <input type="text" placeholder="Enter Your Email" />
+            </div>
+            <div class="add_name">
+              <p>Message</p>
+              <textarea cols="30" rows="10">Your Review Here</textarea>
+            </div>
+            <!-- <div class="btn">
+              <a>Post</a>
+            </div> -->
+            <a>Post</a>
           </div>
-          <div class="pay_bill">
-            <h4>Billing Details</h4>
-            <div class="billing_info">
-              <div class="bill_name flex">
-                <div class="add_name">
-                  <p>First Name *</p>
-                  <div class="text">
-                    <input type="text" placeholder="First Name" />
-                  </div>
-                </div>
-                <div class="add_name">
-                  <p>Last Name *</p>
-                  <div class="text">
-                    <input type="text" placeholder="Last Name" />
-                  </div>
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Companye Name (optional)</p>
-                <div class="text">
-                  <input type="text" placeholder="Companye Name" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Country</p>
-                <div class="text">
-                  <i class="fa-solid fa-caret-down"></i>
-                  <select style="height: 50px">
-                    <option selected>Please Select</option>
-                    <option>Bangladesh</option>
-                    <option>USA</option>
-                    <option>CANADA</option>
-                  </select>
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Street Address *</p>
-                <div class="text1">
-                  <input
-                    type="text"
-                    placeholder="House number and street name"
-                  />
-                </div>
-                <div class="text">
-                  <input
-                    type="text"
-                    placeholder="Apartment, suite, unit etc. (optional)"
-                  />
-                </div>
-              </div>
-
-              <div class="add_name">
-                <p>Town/City *</p>
-                <div class="text">
-                  <input type="text" placeholder="Town/City" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>County (optional)</p>
-                <div class="text">
-                  <input type="text" placeholder="County (optional)" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Post Code *</p>
-                <div class="text">
-                  <input type="text" placeholder="Post Code" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Phone *</p>
-                <div class="text">
-                  <input type="text" placeholder="Phone" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Email Address *</p>
-                <div class="text">
-                  <input type="text" placeholder="Email Address" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="additional">
-            <h5>Additional Information</h5>
-            <div class="text_area">
-              <p>Other Notes (optional)</p>
-              <textarea name="Other Notes" id="" cols="30" rows="10">
-Notes about your order, e.g. special notes for delivery.</textarea
-              >
-            </div>
-          </div>
-          <div class="your_order">
-            <h3>Your Order</h3>
-            <div class="order_details">
-              <div class="item_name"><p>Product</p></div>
-              <div class="item_price"><p>Total</p></div>
-              <div class="item_name"><p>Product name x 1</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-              <div class="item_name"><p>Subtotal</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-              <div class="item_name"><p>Total</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-            </div>
-          </div>
-          <div class="bank">
-            <div class="bank_info">
-              <div class="choose">
-                <div class="circle1">
-                  <div class="circle2"></div>
-                </div>
-                <p>Bank</p>
-              </div>
-              <div class="box">
-                <div class="arrow_up"></div>
-                <div class="shape">
-                  <p>
-                    Pay via Bank; you can pay with your credit card if you don’t
-                    have a Bank account.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="bank_info">
-              <div class="choose">
-                <div class="circle1">
-                  <div class="circle2"></div>
-                </div>
-                <p>Bank</p>
-              </div>
-              <div class="box">
-                <div class="arrow_up"></div>
-                <div class="shape">
-                  <p>
-                    Your personal data will be used to process your order,
-                    support your experience throughout this website, and for
-                    other purposes described in our <b>privacy policy</b>.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <a href="#">Proceed to Bank</a>
+          <div class="img">
+            <img src="image/map.png" alt="map" />
           </div>
         </div>
       </div>
@@ -294,7 +170,7 @@ Notes about your order, e.g. special notes for delivery.</textarea
 </html>
 
 
------------------------CSS-----------------------------
+--------------------CSS-------------------------------
 
 /* Common css Start */
 * {
@@ -389,7 +265,7 @@ nav .nav {
   flex-direction: row;
   padding: 32px 0;
 }
-nav .nav input {
+nav input {
   display: none;
 }
 nav .nav .nav_items {
@@ -493,7 +369,7 @@ nav .nav .nav_items ul li:last-child {
                 banner Part start
  ==============================================*/
 .product_inside {
-  margin-top: 124px;
+  margin-top: 50px;
   margin-bottom: 139px;
 }
 .product_inside .container .heading {
@@ -513,220 +389,62 @@ nav .nav .nav_items ul li:last-child {
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
 }
-/* .product_inside .container .login_text {
-  margin-bottom: 57px;
-} */
-.product_inside .container .login_text p {
-  width: 40%;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 69px;
-}
-.product_inside .container .pay_bill {
-  width: 70%;
-  margin-top: 119px;
-}
-.product_inside .container .pay_bill h4 {
-  font-size: 39px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 42px;
-}
-.product_inside .container .bill_name {
-  display: flex;
-  column-gap: 40px;
-}
-.product_inside .container .bill_name .add_name {
-  width: 49%;
 
-  /* background: #642307; */
+.product_inside .add_review {
+  width: 780px;
 }
-.product_inside .container .bill_name .add_name p {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
-
-.product_inside .container .bill_name .add_name input {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 14px 0;
-  border: #fff;
-  outline: none;
-}
-.product_inside .container .billing_info .add_name p {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
-
-.product_inside .container .billing_info .add_name input {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 14px 0;
-  border: #fff;
-  outline: none;
-}
-.product_inside .container .billing_info .add_name {
-  margin-bottom: 24px;
-  border-bottom: 1px solid #d8d8d8;
-}
-.product_inside .container .billing_info .add_name .text {
-  position: relative;
-}
-.product_inside .container .billing_info .add_name .text1 {
-  border-bottom: 1px solid #d8d8d8;
-}
-.product_inside .container .billing_info .add_name select {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 16px 0;
-  border: #fff;
-  outline: none;
-  appearance: none;
-  color: #767676;
-}
-
-.product_inside .billing_info .add_name .text i {
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-}
-textarea {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-  height: 74px;
-  width: 1137px;
-  border: #d8d8d8;
-}
-.additional {
-  margin-bottom: 129px;
-}
-.additional h5 {
-  font-size: 39px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-top: 129px;
-  margin-bottom: 42px;
-}
-.additional p {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 10px;
-}
-.your_order h3 {
+.product_inside .add_review h4 {
   font-size: 39px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
   margin-bottom: 48px;
 }
-.your_order .order_details {
-  display: flex;
-  flex-wrap: wrap;
-  width: 644px;
+.product_inside .add_review .add_name:first-child {
+  margin-top: 0;
 }
-.your_order .order_details p {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 20px;
+
+.product_inside .add_review .add_name {
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 23px;
 }
-.your_order .order_details .item_name {
-  border: 1px solid #f0f0f0;
-  width: 49%;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
-.your_order .order_details .item_price {
-  border: 1px solid #f0f0f0;
-  width: 49%;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-  color: #767676;
-}
-.bank {
-  padding-left: 34px;
-  margin-top: 60px;
-  width: 1055px;
-  border: 1px solid #d8d8d8;
-}
-.bank_info .choose {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 14px;
-  /* padding-left: 35px; */
-  column-gap: 10px;
+.product_inside .add_review .add_name p {
   font-size: 18px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  margin-bottom: 10px;
 }
-.circle1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #fff;
-  border: 1px solid #262626;
+.product_inside .add_review .add_name input {
+  width: 100%;
+  height: 100%;
+  padding: 18px 2px;
+  padding-right: 68px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 18px;
 }
-.circle2 {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: #262626;
-}
-.bank .bank_info:nth-child(2) .choose .circle2 {
-  display: none;
-}
-.bank_info .box .arrow_up {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f5f5f3;
-  margin-left: 50px;
-  margin-bottom: 2px;
-  transform: scale(2);
-}
-.bank_info:nth-child(2) .box .arrow_up {
-  display: none;
-}
-.bank_info:nth-child(2) .box .shape {
-  background: none;
-}
-.bank_info .box .shape {
-  width: 985px;
-  /* margin-left: 36px; */
-  padding: 13px 0;
-  background: #f5f5f3;
-}
-.bank_info:nth-child(1) .box .shape p {
-  margin-left: 28px;
-  font-size: 14px;
+.product_inside .add_review .add_name textarea {
+  width: 100%;
+  padding: 1px 2px;
+  border: 0;
+  font-size: 18px;
+  height: 136px;
+  color: #767676;
+  font-size: 18px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
 }
-.bank_info:nth-child(2) .box .shape p {
-  
-  font-size: 16px;
+/* 
+.product_inside .add_review .btn {
+  width: 200px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
-}
-
-.product_inside a {
+  background-color: #262626;
+  border: 1px solid #fff;
+  margin-top: 29px;
+  margin-bottom: 140px;
+} */
+.product_inside .add_review a {
   margin-top: 24px;
   margin-bottom: 30px;
   width: 200px;
@@ -741,12 +459,12 @@ textarea {
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
 }
-.product_inside a:hover {
+.product_inside .add_review a:hover {
   color: #fff;
   background: #000;
 }
 
-/*========================================s=======
+/*===============================================
                 New Arrivals Part End
  ==============================================*/
 
@@ -822,7 +540,8 @@ ul li:hover {
                 footer Part End
  ==============================================*/
 
-------------------------responsive-----------------------
+
+------------------Responsive--------------------
 
 @media (min-width: 320px) and (max-width: 921px) {
   nav .nav {
@@ -933,12 +652,10 @@ ul li:hover {
   .tools .search .item3 i:last-child {
     margin-left: 16px;
   }
+
   .product_inside {
-    margin-top: 10px;
-    margin-bottom: 0px;
-  }
-  .product_inside .container .heading {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
   }
   .product_inside .container .heading h2 {
     font-size: 21px;
@@ -946,88 +663,48 @@ ul li:hover {
   .product_inside .container .heading p {
     font-size: 11px;
   }
-  .product_inside .container .login_text p {
-    font-size: 11px;
-    margin-bottom: 25px;
-  }
-  .product_inside .container .pay_bill {
-    margin-top: 0px;
-    width: 100%;
-  }
-  .product_inside .container .pay_bill h4 {
-    font-size: 20px;
-    margin-bottom: 14px;
-  }
-  .product_inside .container .billing_info .add_name p {
-    font-size: 13px;
-  }
-  .product_inside .container .billing_info .add_name input {
-    font-size: 11px;
-  }
-  .product_inside .container .billing_info .add_name {
+  .product_inside .container .heading {
     margin-bottom: 15px;
   }
-  .product_inside .container .billing_info .add_name select {
-    font-size: 11px;
+  .product_inside .add_review {
+    width: 100%;
   }
-  .additional {
-    margin-bottom: 30px;
+  .product_inside .add_review h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
-  .additional h5 {
-    font-size: 20px;
-    margin-top: 35px;
-    margin-bottom: 20px;
+  .product_inside .add_review .add_name {
+    margin-top: 5px;
   }
-  .additional p {
+  .product_inside .add_review .add_name:last-child {
+    border-bottom: none;
+  }
+  .product_inside .add_review .add_name p {
     font-size: 12px;
-    margin-bottom: 10px;
-  }
-  textarea {
-    font-size: 11px;
-    height: auto;
-    width: 94%;
-    padding: 10px;
-    border: 1px solid #f0f0f0;
-  }
-  .your_order h3 {
-    font-size: 21px;
-    margin-bottom: 25px;
-  }
-  .your_order .order_details {
-    width: 100%;
-  }
-  .your_order .order_details p {
+    margin-bottom: 8px;
     margin-top: 10px;
-    margin-bottom: 10px;
   }
-  .your_order .order_details .item_name {
-    font-size: 11px;
+  .product_inside .add_review .add_name input {
+    padding: 10px 2px;
+    font-size: 12px;
   }
-  .your_order .order_details .item_price {
-    font-size: 11px;
+  .product_inside .add_review .add_name textarea {
+    height: auto;
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
   }
-  .bank {
-    padding-left: 9px;
-    margin-top: 40px;
-    width: 100%;
-  }
-  .bank_info .choose {
-    font-size: 13px;
-  }
-  .bank_info .box .shape {
-    width: 97%;
-  }
-  .bank_info:nth-child(1) .box .shape p {
-    font-size: 11px;
-  }
-  .bank_info:nth-child(2) .box .shape p {
-    font-size: 11px;
-  }
-  .product_inside a {
-    margin-top: 11px;
+  .product_inside .add_review a {
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 8px 10px;
     font-size: 11px;
-    width: 30%;
+    width: 18%;
+  }
+  .product_inside .img {
+    width: 100%;
+  }
+  .product_inside .img img {
+    width: 100%;
   }
   footer {
     margin-top: 20px;

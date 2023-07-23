@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <title>Checkout</title>
+    <title>Cart</title>
   </head>
   <body>
     <!-- ======================================
                    First Section Start
          ====================================== -->
-
     <nav>
       <div class="container">
         <div class="nav">
@@ -66,158 +65,71 @@
     <!-- ======================================
                          Banner Bar part Start
                ====================================== -->
-    <section class="product_inside">
+    <section class="shop">
       <div class="container">
         <div class="heading">
-          <h2>Checkout</h2>
-          <p><span>Home</span> <span>></span> <span>Checkout</span></p>
+          <h2>Cart</h2>
+          <p><span>Home</span> <span>></span> <span>Cart</span></p>
         </div>
         <div class="content">
-          <div class="login_text">
-            <p>Have a coupon? <b>Click here to enter your code</b></p>
-          </div>
-          <div class="pay_bill">
-            <h4>Billing Details</h4>
-            <div class="billing_info">
-              <div class="bill_name flex">
-                <div class="add_name">
-                  <p>First Name *</p>
-                  <div class="text">
-                    <input type="text" placeholder="First Name" />
-                  </div>
+          <div class="sub_content">
+            <div class="content_head flex">
+              <div class="item">
+                <p>Product</p>
+              </div>
+              <div class="item">
+                <p>Price</p>
+              </div>
+              <div class="item"><p>Quantity</p></div>
+              <div class="item"><p>Total</p></div>
+            </div>
+            <div class="content_description flex">
+              <div class="item flex">
+                <i class="fa-solid fa-xmark"></i>
+                <div class="image">
+                  <img src="image/Image (1).png" alt="Image" />
                 </div>
-                <div class="add_name">
-                  <p>Last Name *</p>
-                  <div class="text">
-                    <input type="text" placeholder="Last Name" />
-                  </div>
+                <p>Product name</p>
+              </div>
+              <div class="item">
+                <p>$44.00</p>
+              </div>
+              <div class="item">
+                <div class="item_quan">
+                  <p>-</p>
+                  <p>1</p>
+                  <p>+</p>
                 </div>
               </div>
-              <div class="add_name">
-                <p>Companye Name (optional)</p>
-                <div class="text">
-                  <input type="text" placeholder="Companye Name" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Country</p>
-                <div class="text">
+              <div class="item"><p>$44.00</p></div>
+            </div>
+            <div class="update_cart">
+              <div class="size_copun">
+                <div class="sort_box">
                   <i class="fa-solid fa-caret-down"></i>
-                  <select style="height: 50px">
-                    <option selected>Please Select</option>
-                    <option>Bangladesh</option>
-                    <option>USA</option>
-                    <option>CANADA</option>
+                  <select>
+                    <option selected>SIZE</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
                   </select>
                 </div>
+                <!-- <p>Apply coupon</p> -->
               </div>
-              <div class="add_name">
-                <p>Street Address *</p>
-                <div class="text1">
-                  <input
-                    type="text"
-                    placeholder="House number and street name"
-                  />
-                </div>
-                <div class="text">
-                  <input
-                    type="text"
-                    placeholder="Apartment, suite, unit etc. (optional)"
-                  />
-                </div>
-              </div>
+              <p>Apply coupon</p>
+              <p>Update cart</p>
+            </div>
+          </div>
 
-              <div class="add_name">
-                <p>Town/City *</p>
-                <div class="text">
-                  <input type="text" placeholder="Town/City" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>County (optional)</p>
-                <div class="text">
-                  <input type="text" placeholder="County (optional)" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Post Code *</p>
-                <div class="text">
-                  <input type="text" placeholder="Post Code" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Phone *</p>
-                <div class="text">
-                  <input type="text" placeholder="Phone" />
-                </div>
-              </div>
-              <div class="add_name">
-                <p>Email Address *</p>
-                <div class="text">
-                  <input type="text" placeholder="Email Address" />
-                </div>
-              </div>
+          <div style="float: right" class="cart_total">
+            <div class="cart_item"><p>Cart totals</p></div>
+            <div class="amount">
+              <div class="amount_item"><p>Sub total</p></div>
+              <div class="amount_item"><p>$300.00</p></div>
+              <div class="amount_item"><p>Total</p></div>
+              <div class="amount_item"><p>$300.00</p></div>
             </div>
-          </div>
-          <div class="additional">
-            <h5>Additional Information</h5>
-            <div class="text_area">
-              <p>Other Notes (optional)</p>
-              <textarea name="Other Notes" id="" cols="30" rows="10">
-Notes about your order, e.g. special notes for delivery.</textarea
-              >
-            </div>
-          </div>
-          <div class="your_order">
-            <h3>Your Order</h3>
-            <div class="order_details">
-              <div class="item_name"><p>Product</p></div>
-              <div class="item_price"><p>Total</p></div>
-              <div class="item_name"><p>Product name x 1</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-              <div class="item_name"><p>Subtotal</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-              <div class="item_name"><p>Total</p></div>
-              <div class="item_price"><p>389.99 $</p></div>
-            </div>
-          </div>
-          <div class="bank">
-            <div class="bank_info">
-              <div class="choose">
-                <div class="circle1">
-                  <div class="circle2"></div>
-                </div>
-                <p>Bank</p>
-              </div>
-              <div class="box">
-                <div class="arrow_up"></div>
-                <div class="shape">
-                  <p>
-                    Pay via Bank; you can pay with your credit card if you don’t
-                    have a Bank account.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="bank_info">
-              <div class="choose">
-                <div class="circle1">
-                  <div class="circle2"></div>
-                </div>
-                <p>Bank</p>
-              </div>
-              <div class="box">
-                <div class="arrow_up"></div>
-                <div class="shape">
-                  <p>
-                    Your personal data will be used to process your order,
-                    support your experience throughout this website, and for
-                    other purposes described in our <b>privacy policy</b>.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <a href="#">Proceed to Bank</a>
+            <a href="#">Proceed to Checkout</a>
           </div>
         </div>
       </div>
@@ -294,7 +206,7 @@ Notes about your order, e.g. special notes for delivery.</textarea
 </html>
 
 
------------------------CSS-----------------------------
+-----------------CSS--------------------------------
 
 /* Common css Start */
 * {
@@ -428,8 +340,7 @@ nav .nav .nav_items ul li:last-child {
 .tools .search .item1 {
   padding: 40px 0;
   display: flex;
-  align-items: center;
-  width: 11%;
+  width: 10%;
   box-sizing: border-box;
 }
 .tools .search .item1 img {
@@ -492,261 +403,185 @@ nav .nav .nav_items ul li:last-child {
 /*===============================================
                 banner Part start
  ==============================================*/
-.product_inside {
+.shop {
   margin-top: 124px;
-  margin-bottom: 139px;
 }
-.product_inside .container .heading {
-  margin-bottom: 125px;
+.shop .container .heading {
+  margin-bottom: 135px;
 }
-.product_inside .container .heading span:nth-child(2) {
+.shop .container .heading span:nth-child(2) {
   margin: 0 5px;
 }
-
-.product_inside .container .heading h2 {
-  font-size: 45px;
+.shop .container .heading h2 {
+  font-size: 39px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  margin-bottom: 11px;
 }
-.product_inside .container .heading p {
+.shop .container .heading p {
   font-size: 12px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
 }
-/* .product_inside .container .login_text {
-  margin-bottom: 57px;
+
+.shop .container .content .sub_content {
+  margin-bottom: 54px;
+}
+.shop .container .content .content_head .item {
+  width: 25%;
+  background-color: #f5f5f3;
+  padding: 32px 0;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+
+.shop .container .content .content_description {
+  border: 1px solid #f0f0f0;
+}
+.shop .container .content .content_description .item p {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .content .content_description .item {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding: 30px 0;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .content .content_description .item .image {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.shop .container .content .content_description .item .item_quan {
+  border-radius: 0;
+  border: 1px solid #f0f0f0;
+  width: 139px;
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-around;
+}
+.shop .container .content .content_description .item .item_quan p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .content .update_cart {
+  border: 1px solid #f0f0f0;
+  padding: 19px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+/* .shop .container .content .update_cart {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
 } */
-.product_inside .container .login_text p {
-  width: 40%;
+.shop .container .content .update_cart .size_copun {
+  display: flex;
+  column-gap: 23px;
+  align-items: center;
+}
+.shop .container .content .update_cart .size_copun p {
+  /* margin-left: 23px; */
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.shop .container .content .sort_box {
+  border-radius: 0;
+  height: 100%;
+  position: relative;
+  border: 1px solid #f0f0f0;
+  width: 255px;
+  /* margin: 19px 0; */
+}
+.shop .container .content .sort_box select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 203px;
   font-size: 16px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
-  margin-bottom: 69px;
-}
-.product_inside .container .pay_bill {
-  width: 70%;
-  margin-top: 119px;
-}
-.product_inside .container .pay_bill h4 {
-  font-size: 39px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 42px;
-}
-.product_inside .container .bill_name {
-  display: flex;
-  column-gap: 40px;
-}
-.product_inside .container .bill_name .add_name {
-  width: 49%;
-
-  /* background: #642307; */
-}
-.product_inside .container .bill_name .add_name p {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
-
-.product_inside .container .bill_name .add_name input {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 14px 0;
-  border: #fff;
-  outline: none;
-}
-.product_inside .container .billing_info .add_name p {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
-
-.product_inside .container .billing_info .add_name input {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 14px 0;
-  border: #fff;
-  outline: none;
-}
-.product_inside .container .billing_info .add_name {
-  margin-bottom: 24px;
-  border-bottom: 1px solid #d8d8d8;
-}
-.product_inside .container .billing_info .add_name .text {
-  position: relative;
-}
-.product_inside .container .billing_info .add_name .text1 {
-  border-bottom: 1px solid #d8d8d8;
-}
-.product_inside .container .billing_info .add_name select {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 16px 0;
-  border: #fff;
-  outline: none;
+  align-items: center;
+  height: 100%;
   appearance: none;
-  color: #767676;
+  border: none;
 }
-
-.product_inside .billing_info .add_name .text i {
+/* .product_details .sort:last-child .sort_box select {
+  padding-right: 66px;
+} */
+.shop .container .content .sort_box i {
   position: absolute;
   top: 50%;
   right: 15px;
   transform: translateY(-50%);
 }
-textarea {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-  height: 74px;
-  width: 1137px;
-  border: #d8d8d8;
-}
-.additional {
-  margin-bottom: 129px;
-}
-.additional h5 {
-  font-size: 39px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-top: 129px;
-  margin-bottom: 42px;
-}
-.additional p {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 10px;
-}
-.your_order h3 {
-  font-size: 39px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-  margin-bottom: 48px;
-}
-.your_order .order_details {
+.cart_total {
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
-  width: 644px;
+  justify-content: flex-end;
 }
-.your_order .order_details p {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 20px;
-}
-.your_order .order_details .item_name {
-  border: 1px solid #f0f0f0;
-  width: 49%;
+.cart_total .cart_item {
+  margin-bottom: 24px;
+  display: flex;
   font-size: 16px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  color: #262626;
 }
-.your_order .order_details .item_price {
-  border: 1px solid #f0f0f0;
-  width: 49%;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-  color: #767676;
-}
-.bank {
-  padding-left: 34px;
-  margin-top: 60px;
-  width: 1055px;
-  border: 1px solid #d8d8d8;
-}
-.bank_info .choose {
+.cart_total .amount {
+  width: 100%;
   display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 14px;
-  /* padding-left: 35px; */
-  column-gap: 10px;
-  font-size: 18px;
+  font-size: 16px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  color: #262626;
 }
-.circle1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #fff;
-  border: 1px solid #262626;
-}
-.circle2 {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: #262626;
-}
-.bank .bank_info:nth-child(2) .choose .circle2 {
-  display: none;
-}
-.bank_info .box .arrow_up {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f5f5f3;
-  margin-left: 50px;
-  margin-bottom: 2px;
-  transform: scale(2);
-}
-.bank_info:nth-child(2) .box .arrow_up {
-  display: none;
-}
-.bank_info:nth-child(2) .box .shape {
-  background: none;
-}
-.bank_info .box .shape {
-  width: 985px;
-  /* margin-left: 36px; */
-  padding: 13px 0;
-  background: #f5f5f3;
-}
-.bank_info:nth-child(1) .box .shape p {
-  margin-left: 28px;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-}
-.bank_info:nth-child(2) .box .shape p {
-  
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "DM Sans", sans-serif;
-}
-
-.product_inside a {
-  margin-top: 24px;
-  margin-bottom: 30px;
-  width: 200px;
-  border: 1px solid #000;
-  background: #fff;
+.cart_total .amount .amount_item {
   padding-top: 16px;
   padding-bottom: 16px;
-  color: #000;
+  padding-left: 20px;
+  width: 46%;
   display: flex;
-  justify-content: center;
   font-size: 16px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  color: #262626;
+  border: 1px solid #d8d8d8;
 }
-.product_inside a:hover {
+.cart_total a {
+  margin-top: 30px;
+  padding: 16px 27px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #262626;
+  border: 1px solid #d8d8d8;
+}
+.cart_total a:hover {
+  background: #262626;
   color: #fff;
-  background: #000;
+  border: 1px solid #d8d8d8;
 }
-
-/*========================================s=======
+/*===============================================
                 New Arrivals Part End
  ==============================================*/
 
@@ -754,6 +589,7 @@ textarea {
                 footer Part start
  ==============================================*/
 footer {
+  margin-top: 431px;
   background: #f5f5f3;
 }
 
@@ -822,9 +658,10 @@ ul li:hover {
                 footer Part End
  ==============================================*/
 
-------------------------responsive-----------------------
 
-@media (min-width: 320px) and (max-width: 921px) {
+-------------------------responsive-----------------------
+
+@media (min-width: 320px) and (max-width: 769px) {
   nav .nav {
     display: block;
     padding: 32px 0;
@@ -933,107 +770,116 @@ ul li:hover {
   .tools .search .item3 i:last-child {
     margin-left: 16px;
   }
-  .product_inside {
+  .shop {
     margin-top: 10px;
-    margin-bottom: 0px;
   }
-  .product_inside .container .heading {
-    margin-bottom: 20px;
-  }
-  .product_inside .container .heading h2 {
-    font-size: 21px;
-  }
-  .product_inside .container .heading p {
-    font-size: 11px;
-  }
-  .product_inside .container .login_text p {
-    font-size: 11px;
-    margin-bottom: 25px;
-  }
-  .product_inside .container .pay_bill {
-    margin-top: 0px;
-    width: 100%;
-  }
-  .product_inside .container .pay_bill h4 {
-    font-size: 20px;
-    margin-bottom: 14px;
-  }
-  .product_inside .container .billing_info .add_name p {
-    font-size: 13px;
-  }
-  .product_inside .container .billing_info .add_name input {
-    font-size: 11px;
-  }
-  .product_inside .container .billing_info .add_name {
-    margin-bottom: 15px;
-  }
-  .product_inside .container .billing_info .add_name select {
-    font-size: 11px;
-  }
-  .additional {
+  .shop .container .heading {
     margin-bottom: 30px;
   }
-  .additional h5 {
-    font-size: 20px;
-    margin-top: 35px;
+  .shop .container .heading h2 {
+    font-size: 21px;
+    margin-bottom: 0px;
+  }
+  .shop .container .content .content_head {
+    display: none;
+  }
+  .shop .container .content .content_description {
+    display: flex;
+    justify-content: space-between;
+  }
+  .shop .container .content .content_description .item:first-child {
+    width: 40%;
+    padding: 0;
+    padding-left: 0px;
+    font-size: 12px;
+    justify-content: flex-start;
+  }
+  .shop .container .content .content_description .item:first-child i {
+    margin-left: 2px;
+  }
+  .shop .container .content .content_description .item p {
+    font-size: 11px;
+    line-height: 10px;
+  }
+  .shop .container .content .content_description .item .image {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0px;
+    transform: scale(0.7);
+  }
+  .shop .container .content .content_description .item:nth-child(2) {
+    display: none;
+  }
+  .shop .container .content .content_description .item {
+    width: 20%;
+    padding-left: 40px;
+    font-size: 11px;
+  }
+  .shop .container .content .content_description .item .item_quan {
+    margin-left: 3px;
+  }
+  .shop .container .content .content_description .item .item_quan p {
+    font-size: 11px;
+  }
+
+  .shop .container .content .sort_box {
+    width: auto;
+  }
+  .shop .container .content .sort_box select {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+  }
+  .shop .container .content .sort_box i {
+    right: 10px;
+    transform: translateY(-56%);
+  }
+  .shop .container .content .sort_box select {
+    padding-right: 40px;
+    font-size: 11px;
+  }
+  .shop .container .content .update_cart .size_copun p {
+    font-size: 11px;
+  }
+  .shop .container .content .update_cart {
+    font-size: 11px;
+  }
+  .shop .container .content .sub_content {
     margin-bottom: 20px;
   }
-  .additional p {
-    font-size: 12px;
-    margin-bottom: 10px;
+  .cart_total.style {
+    float: none;
   }
-  textarea {
-    font-size: 11px;
-    height: auto;
-    width: 94%;
-    padding: 10px;
-    border: 1px solid #f0f0f0;
-  }
-  .your_order h3 {
-    font-size: 21px;
-    margin-bottom: 25px;
-  }
-  .your_order .order_details {
+  .cart_total {
     width: 100%;
   }
-  .your_order .order_details p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .your_order .order_details .item_name {
+  .cart_total .amount .amount_item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    width: 43%;
     font-size: 11px;
   }
-  .your_order .order_details .item_price {
-    font-size: 11px;
+  .cart_total .cart_item {
+    margin-bottom: 12px;
+    font-size: 14px;
   }
-  .bank {
-    padding-left: 9px;
-    margin-top: 40px;
-    width: 100%;
+  .cart_total .amount .amount_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  .bank_info .choose {
-    font-size: 13px;
-  }
-  .bank_info .box .shape {
-    width: 97%;
-  }
-  .bank_info:nth-child(1) .box .shape p {
-    font-size: 11px;
-  }
-  .bank_info:nth-child(2) .box .shape p {
-    font-size: 11px;
-  }
-  .product_inside a {
+  .cart_total a {
     margin-top: 11px;
     padding: 8px 10px;
     font-size: 11px;
-    width: 30%;
   }
   footer {
-    margin-top: 20px;
+    margin-top: 178px;
   }
   footer .flex {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
   footer .left_footer {
     width: 80%;
@@ -1072,7 +918,6 @@ ul li:hover {
     padding-bottom: 25px;
     column-gap: 72px;
     align-items: center;
-    margin-top: 35px;
   }
   footer .down_footer p {
     font-family: "Poppins", sans-serif;

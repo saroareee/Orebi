@@ -26,6 +26,8 @@
           <div class="logo">
             <img src="image/nav_logo.png" alt="nav_logo" />
           </div>
+          <label for="x" class="font-18">&#x2637; </label>
+          <input id="x" type="checkbox" />
           <div class="nav_items">
             <ul>
               <li>Home</li>
@@ -547,6 +549,9 @@ nav .nav {
   flex-direction: row;
   padding: 32px 0;
 }
+nav .nav input {
+  display: none;
+}
 nav .nav .nav_items {
   padding-left: 544px;
 }
@@ -799,3 +804,204 @@ ul li:hover {
 /*===============================================
                 footer Part End
  ==============================================*/
+
+-------------------responsive----------------------
+
+@media (min-width: 320px) and (max-width: 769px) {
+  nav .nav {
+    display: block;
+    /* flex-direction: row; */
+    padding: 32px 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  nav .nav .nav_items {
+    margin-top: 15px;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: red;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+  }
+  nav .nav .nav_items ul {
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  nav .nav .nav_items ul li {
+    padding: 0;
+  }
+  nav .logo {
+    width: 100%;
+  }
+  nav .nav label {
+    position: absolute;
+    top: 28px;
+    right: 10px;
+    display: block;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .nav input:checked + .nav_items {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+  .tools {
+    padding: 7px 0;
+  }
+  .tools .search .item1 {
+    padding: 0;
+    width: 10%;
+  }
+  .tools .search .item1 img {
+    padding: 16px 0;
+    transform: scale(0.7);
+  }
+
+  .tools .search .item1 h6 {
+    display: none;
+  }
+  .tools .search .item2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+  }
+  .tools .search .item2 input {
+    width: 100%;
+    padding: 7px 10px;
+    padding-right: 29px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 14px;
+    position: relative;
+  }
+  .tools .search .item2 .icon {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    transform: scale(0.8);
+  }
+
+  .tools .search .item3 {
+    width: 5%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 0px;
+    transform: scale(0.7);
+    cursor: pointer;
+    margin-left: 42px;
+  }
+
+  .tools .search .item3 i:last-child {
+    margin-left: 16px;
+  }
+  .about_inside {
+    margin-top: 21px;
+    margin-bottom: 20px;
+  }
+  .about_inside .container .heading h2 {
+    font-size: 21px;
+  }
+  .about_inside .container .heading {
+    margin-bottom: 15px;
+  }
+  .about_inside .content .product_list .products {
+    width: 100%;
+  }
+  .about_inside .products a {
+    bottom: 20px;
+    border: none;
+    padding: 11px 26px;
+    font-size: 11px;
+  }
+  .about_inside .content h6 {
+    margin-top: 40px;
+    font-size: 17px;
+  }
+  .about_inside .content .vision {
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 40px;
+  }
+  .about_inside .content .vision_item {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  footer .flex {
+    margin-bottom: 30px;
+  }
+  footer .left_footer {
+    width: 80%;
+  }
+  footer .left_footer_up {
+    width: 100%;
+    display: flex;
+    column-gap: 95px;
+    flex-wrap: wrap;
+  }
+  footer .left_footer_up .item h4 {
+    font-size: 13px;
+  }
+  footer .left_footer_up .item ul li {
+    font-size: 11px;
+  }
+  footer .left_footer_up .item {
+    margin-top: 29px;
+  }
+  footer .left_footer_up .item p {
+    font-size: 13px;
+  }
+  footer .left_footer_up .item p:last-child {
+    font-size: 13px;
+  }
+  footer .right_footer {
+    width: 20%;
+    text-align: end;
+  }
+
+  footer .right_footer img {
+    width: 80%;
+    margin-top: 29px;
+  }
+  footer .down_footer {
+    padding-bottom: 25px;
+    column-gap: 72px;
+    align-items: center;
+  }
+  footer .down_footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  footer .left_footer_down {
+    display: flex;
+    column-gap: 10px;
+  }
+  footer .left_footer_down i {
+    transform: scale(0.8);
+  }
+}
+

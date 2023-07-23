@@ -226,6 +226,7 @@ nav .nav .nav_items ul li:last-child {
 .offer h2 {
   margin-bottom: 33px;
   font-size: 38px;
+  font-family: "DM Sans", sans-serif;
 }
 .offer p span {
   font-size: 16px;
@@ -363,6 +364,16 @@ nav .nav .nav_items ul li:last-child {
   display: none;
   transition: 0.4s;
 }
+.new .product:hover .wishlist {
+  bottom: 81px;
+  right: 0;
+  position: absolute;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  display: block;
+}
 .new .container .wishlist .list {
   display: flex;
   justify-content: flex-end;
@@ -383,16 +394,7 @@ nav .nav .nav_items ul li:last-child {
   font-family: "DM Sans", sans-serif;
   color: #767676;
 }
-.new .product:hover .wishlist {
-  bottom: 81px;
-  right: 0;
-  position: absolute;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 100%;
-  background: #fff;
-  display: block;
-}
+
 .new {
   margin-bottom: 118px;
 }
