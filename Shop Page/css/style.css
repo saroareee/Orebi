@@ -91,6 +91,9 @@ nav .nav {
   flex-direction: row;
   padding: 32px 0;
 }
+nav input {
+  display: none;
+}
 nav .nav .nav_items {
   padding-left: 544px;
 }

@@ -254,7 +254,7 @@
 </html>
 
 
---------------------------CSS------------------------------------
+-------------------CSS------------------------
 
 /* Common css Start */
 * {
@@ -654,28 +654,14 @@ nav .nav .nav_items ul li:last-child {
   border: 1px solid #262626;
 }
 
-.product_inside .btn a {
-  /* background: #262626; */
-  margin: 16px 81px;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "DM Sans", sans-serif;
-}
 .product_inside a {
-  width: 200px;
-  border: 1px solid #000;
-  background: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
+  margin-top: 30px;
+  padding: 16px 27px;
+  font-size: 14px;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
+  color: #262626;
+  border: 1px solid #d8d8d8;
 }
 .product_inside a:hover {
   color: #fff;
@@ -759,5 +745,258 @@ ul li:hover {
  ==============================================*/
 
 
-----------------------Responsive------------------------
+------------------------responsive-----------------------
+
+
+@media (min-width: 320px) and (max-width: 921px) {
+  nav .nav {
+    display: block;
+    padding: 32px 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  nav .nav .nav_items {
+    margin-top: 15px;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+  }
+  nav .nav .nav_items ul {
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  nav .nav .nav_items ul li {
+    padding: 0;
+  }
+  nav .logo {
+    width: 100%;
+  }
+  nav .nav label {
+    position: absolute;
+    top: 28px;
+    right: 10px;
+    display: block;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .nav input:checked + .nav_items {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+  .tools {
+    padding: 7px 0;
+  }
+  .tools .search .item1 {
+    padding: 0;
+    width: 10%;
+  }
+  .tools .search .item1 img {
+    padding: 16px 0;
+    transform: scale(0.7);
+  }
+
+  .tools .search .item1 h6 {
+    display: none;
+  }
+  .tools .search .item2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+  }
+  .tools .search .item2 input {
+    width: 100%;
+    padding: 7px 10px;
+    padding-right: 29px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 14px;
+    position: relative;
+  }
+  .tools .search .item2 .icon {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    transform: scale(0.8);
+  }
+
+  .tools .search .item3 {
+    width: 5%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 0px;
+    transform: scale(0.7);
+    cursor: pointer;
+    margin-left: 42px;
+  }
+
+  .tools .search .item3 i:last-child {
+    margin-left: 16px;
+  }
+  .product_inside {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .product_inside .container .heading h2 {
+    font-size: 21px;
+  }
+  .product_inside .container .heading p {
+    font-size: 11px;
+  }
+  .product_inside .container .heading {
+    margin-bottom: 15px;
+  }
+  .product_inside .container .login_text {
+    margin-bottom: 18px;
+  }
+  .product_inside .container .login_text p {
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+  .add_review {
+    border: none;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .product_inside .add_review h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .product_inside .add_review .add_name p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .product_inside .add_review .add_name input {
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .product_inside .add_review2 h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .add_review2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .product_inside .add_review2 .login_info {
+    flex-direction: column;
+  }
+  .product_inside .add_review2 .add_name {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .product_inside .add_review2 .add_name p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .product_inside .add_review2 .add_name input {
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .product_inside .add_review2 .add_name .sort_box select {
+    font-size: 12px;
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .aggrement p {
+    font-size: 12px;
+  }
+  .product_inside a {
+    margin-top: 11px;
+    padding: 8px 30px;
+    font-size: 11px;
+  }
+  .checkbox {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #d8d8d8;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  footer .flex {
+    margin-bottom: 0px;
+  }
+  footer .left_footer {
+    width: 80%;
+  }
+  footer .left_footer_up {
+    width: 100%;
+    display: flex;
+    column-gap: 95px;
+    flex-wrap: wrap;
+  }
+  footer .left_footer_up .item h4 {
+    font-size: 11px;
+  }
+  footer .left_footer_up .item ul li {
+    font-size: 11px;
+  }
+  footer .left_footer_up .item {
+    margin-top: 29px;
+  }
+  footer .left_footer_up .item p {
+    font-size: 11px;
+  }
+  footer .left_footer_up .item p:last-child {
+    font-size: 11px;
+  }
+  footer .right_footer {
+    width: 20%;
+    text-align: end;
+  }
+
+  footer .right_footer img {
+    width: 80%;
+    margin-top: 29px;
+  }
+  footer .down_footer {
+    padding-bottom: 25px;
+    column-gap: 72px;
+    align-items: center;
+    margin-top: 35px;
+  }
+  footer .down_footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  footer .left_footer_down {
+    display: flex;
+    column-gap: 10px;
+  }
+  footer .left_footer_down i {
+    transform: scale(0.8);
+  }
+}
 

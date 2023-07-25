@@ -107,7 +107,90 @@
   .tools .search .item3 i:last-child {
     margin-left: 16px;
   }
-
+  .product_inside {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .product_inside .container .heading h2 {
+    font-size: 21px;
+  }
+  .product_inside .container .heading p {
+    font-size: 11px;
+  }
+  .product_inside .container .heading {
+    margin-bottom: 15px;
+  }
+  .product_inside .container .login_text {
+    margin-bottom: 18px;
+  }
+  .product_inside .container .login_text p {
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+  .add_review {
+    border: none;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .product_inside .add_review h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .product_inside .add_review .add_name p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .product_inside .add_review .add_name input {
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .product_inside .add_review2 h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .add_review2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .product_inside .add_review2 .login_info {
+    flex-direction: column;
+  }
+  .product_inside .add_review2 .add_name {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .product_inside .add_review2 .add_name p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .product_inside .add_review2 .add_name input {
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .product_inside .add_review2 .add_name .sort_box select {
+    font-size: 12px;
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 12px;
+  }
+  .aggrement p {
+    font-size: 12px;
+  }
+  .product_inside a {
+    margin-top: 11px;
+    padding: 8px 30px;
+    font-size: 11px;
+  }
+  .checkbox {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #d8d8d8;
+  }
   footer {
     margin-top: 20px;
   }
